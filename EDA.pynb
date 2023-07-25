@@ -42,7 +42,7 @@ plt.xlabel('Age')
 plt.show()
 
 # Visualizing MaritalStatus distribution 
-ounts = [customerS['MaritalStatus_Single'].sum(),customerS['MaritalStatus_Divorced'].sum(),customerS['MaritalStatus_Married'].sum()]
+counts = [customerS['MaritalStatus_Single'].sum(),customerS['MaritalStatus_Divorced'].sum(),customerS['MaritalStatus_Married'].sum()]
 plt.pie(counts, labels=['Single', 'Divorced','Married'],colors = sns.color_palette("RdGy", n_colors=3),autopct='%1.1f%%')
 plt.title('Marital Status Distribution')
 plt.tight_layout()
