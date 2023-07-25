@@ -36,3 +36,5 @@ customerINFO = {
 # Creating a pandas DataFrame
 df = pd.DataFrame(customerINFO)
 df.head(8)
+# Saving the DataFrame to a CSV file
+df.to_csv('TechElectro_Customer_Data.csv', index=False)
