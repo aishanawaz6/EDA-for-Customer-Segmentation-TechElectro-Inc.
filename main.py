@@ -1,4 +1,4 @@
-# DataScience Remote Internship - Aisha Nawaz Week 5 Day 01
+#  Aisha Nawaz
 # Project 1: Exploratory Data Analysis (EDA) for Customer Segmentation
 
 # Client Name: TechElectro Inc.
